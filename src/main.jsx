@@ -11,7 +11,7 @@ document.body.appendChild(renderer.domElement);
 
 // Earth texture
 const textureLoader = new THREE.TextureLoader();
-const earthTexture = textureLoader.load('../download.jpeg'); // Replace 'path/to/earth_texture.jpg' with the actual path to your Earth texture image
+const earthTexture = textureLoader.load('../sun.jpeg'); // Replace 'path/to/earth_texture.jpg' with the actual path to your Earth texture image
 
 const geometry = new THREE.SphereGeometry(1.3, 64, 64);
 const material = new THREE.MeshStandardMaterial({ map: earthTexture }); // Use the Earth texture
